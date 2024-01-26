@@ -1,0 +1,58 @@
+.customTypography {
+    variant: 'h4';
+}
+
+/* Media query for screens up to 600px width */
+@media (min-width: 768px) {
+    .customTypography {
+        /* color: red; */
+      variant: 'h6' !important; /* Change the variant for mobile screens */
+    }
+  }
+  @media (max-width: 767px) {
+    .customTypography {
+        /* color: rgb(26, 255, 0); */
+      variant: 'h4'; /* Change the variant for mobile screens */
+      font-size: large !important;
+    }
+  }
+
+  .btn1{
+ 
+    background-color: #c2fbd7 !important;
+    border-radius: 100px !important;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px !important;
+    color: rgb(128, 0, 0) !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif  !important;
+    padding: 7px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: all 250ms !important;
+    border: 0 !important;
+    font-size: 16px !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    touch-action: manipulation !important;
+  
+  
+  
+}
+
+
+  /* .btn1{
+    height: 10% !important;
+    width: 30% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 4px !important;
+  } */
+  
+  
+  
+  .btn1:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px !important;
+    transform: scale(1.05) !important;
+  }
